@@ -1,0 +1,45 @@
+body{
+    margin-top: 0%;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;   
+}
+h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+a{
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    color:ghostwhite;
+}
+a:hover{
+    color: indianred;
+}
+.icon{
+    top: 0;
+    position: absolute;
+}
+
+.flx{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#player{
+    font-weight: 300;
+}
+#footer{
+    bottom: 2%;
+    position:relative;
+    margin: 8% auto 0;
+    left: 0%;
+    right: 0%;
+}
+
