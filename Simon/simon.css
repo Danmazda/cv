@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+#title{
+    font-size: 1.5rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.Blocks {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+.block{
+    border: 3px solid white;
+    border-radius: 20%;
+    margin: 4%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Botões individuais */
+.b1{
+    background-color: red;
+    grid-column: 2;
+    grid-row: 1;
+}
+.b2{
+    background-color: green;
+    grid-column: 3;
+    grid-row: 1;
+}
+.b3{
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 2;
+}
+.b4{
+    background-color: yellow;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.point{
+    cursor: pointer;
+}
+
+.wrong{
+    background-color: red;
+}
+
+.block.pressed{
+    animation-name: pressionado;
+    animation-duration: 0.2;
+    transform: scale(0.90);
+    box-shadow: 2px 4px 6px 1px white;
+}
+
+@keyframes pressionado{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 0 0;
+}
+h4{
+    margin: 0;
+}

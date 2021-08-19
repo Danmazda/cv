@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto Mono', monospace;;
+    background-color: black;
+    color:white;
+    flex-direction: column;
+}
+ul, li, h2, h3, h4, p{
+    margin: 0 ;
+    padding: 0%;
+    list-style: none;
+}
+h1{
+    font-size: 3rem;
+    margin: 3%;
+}
+h2{
+    margin-bottom: 3%;
+    font-size: 2.2rem;
+}
+h3{
+    margin-bottom: 2%;
+}
+li{
+    margin-bottom: 2%;
+    font-size: 1.3rem
+}
+.flex-boy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-boy.left{
+    align-items: flex-start;
+    margin-right: 25%;
+    margin-bottom: 20px;
+}
+
+a{
+    color:rgb(241, 209, 185);
+    text-decoration: none;
+}
+a:hover{
+    color: cadetblue;
+}
+.game{
+    font-family: 'Press Start 2P', cursive;
+}
+.holder{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#js{
+    background-color: rgba(36, 40, 48, 0.87);
+    border: 2px solid rgb(180, 118, 3);
+}
+#curriculo{
+    background-color: rgb(51, 44, 38);
+    /* border: 2px solid rgb(180, 118, 3); */
+}
+.footer-1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.footer-1 p{
+    font-size: 0.7rem;
+}
+.footer-list li{
+    margin-left: 10px;
+    font-size: 1rem;
+}
